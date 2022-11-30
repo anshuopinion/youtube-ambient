@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.ambient-player {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.main-video {
+  position: absolute;
+  max-height: 75vh;
+  border-radius: 10px;
+}
+
+.blur-video {
+  border-radius: 2px;
+  position: absolute;
+  filter: blur(64px);
+  transform: scale(4, 5);
+}
